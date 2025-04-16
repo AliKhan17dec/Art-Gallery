@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Art Gallery | Gallery</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    html, body {
+      height: 100%;
+    }
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+    main {
+      flex: 1;
+    }
+    .card-img-top {
+      height: 500px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">ArtGallery</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navmenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link active" href="gallery.html">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Gallery -->
+<main class="container my-5">
+  <h1 class="text-center mb-4">Gallery</h1>
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+    
+    <!-- Card 1 -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="/pictures/pexels-minan1398-962312.jpg" class="card-img-top img-fluid" alt="Art 1">
+        <div class="card-body">
+          <h5 class="card-title">Sunset Dreams</h5>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="/pictures/pexels-paduret-1193743.jpg" class="card-img-top img-fluid" alt="Art 2">
+        <div class="card-body">
+          <h5 class="card-title">Urban Pulse</h5>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="/pictures/pexels-pixabay-159862.jpg" class="card-img-top img-fluid" alt="Art 3">
+        <div class="card-body">
+          <h5 class="card-title">Mystic Forest</h5>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="/pictures/pexels-steve-1109354.jpg" class="card-img-top img-fluid" alt="Art 4">
+        <div class="card-body">
+          <h5 class="card-title">Golden Vibe</h5>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 5 -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="/pictures/pexels-w-w-299285-889839.jpg" class="card-img-top img-fluid" alt="Art 5">
+        <div class="card-body">
+          <h5 class="card-title">Tranquil Vision</h5>
+        </div>
+      </div>
+    </div>
+
+    <!-- Add more cards if needed -->
+
+  </div>
+</main>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+  &copy; 2025 ArtGallery | All rights reserved
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Art Gallery | Services</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    html, body {
+      height: 100%;
+    }
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+    main {
+      flex: 1;
+    }
+    .card-icon {
+      font-size: 40px;
+      color: #6c757d;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">ArtGallery</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navmenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link active" href="services.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Services -->
+<main class="container my-5">
+  <h1 class="text-center mb-4">Our Services</h1>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    
+    <!-- Service 1 -->
+    <div class="col">
+      <div class="card h-100 text-center p-3">
+        <div class="card-body">
+          <div class="card-icon mb-3">&#127912;</div>
+          <h5 class="card-title">Art Exhibitions</h5>
+          <p class="card-text">We organize and host monthly exhibitions featuring talented local and international artists.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Service 2 -->
+    <div class="col">
+      <div class="card h-100 text-center p-3">
+        <div class="card-body">
+          <div class="card-icon mb-3">&#128218;</div>
+          <h5 class="card-title">Art Workshops</h5>
+          <p class="card-text">Join our hands-on workshops to learn painting, sketching, and other art techniques from professionals.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Service 3 -->
+    <div class="col">
+      <div class="card h-100 text-center p-3">
+        <div class="card-body">
+          <div class="card-icon mb-3">&#128179;</div>
+          <h5 class="card-title">Art Sales</h5>
+          <p class="card-text">Purchase original artwork directly from artists through our curated gallery platform.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Add more services as needed -->
+
+  </div>
+</main>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+  &copy; 2025 ArtGallery | All rights reserved
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
